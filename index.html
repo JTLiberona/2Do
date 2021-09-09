@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <title>2Do - My task's list.</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>2 Do</h1>
+    </div>
+    <section id="top-area" class="topArea">
+      <div id="divId" class="cssForm">
+        <div id="divId2">
+          <input
+            type="text"
+            id="inputText"
+            class="cssInputText"
+            placeholder="Write here what you have 2Do..."
+          />
+          <button id="addButton" class="cssInputButton">ADD</button>
+        </div>
+      </div>
+    </section>
+    <section class="bottomArea">
+      <div id="list2Do" class="cssList">
+        <ol id="ordered-list">
+          <!-- <li>
+            example
+            <div class="cssBtn">
+              <input
+                type="image"
+                id="edit"
+                src="../client/public/img/edit.png"
+                class="editBtn"
+              />
+              <input
+                type="image"
+                id="delete"
+                src="../client/public/img/delete.png"
+                class="deleteBtn"
+              />
+            </div>
+          </li> -->
+        </ol>
+      </div>
+    </section>
+    <script type="module" src="src/init/init.js"></script>
+  </body>
+</html>
